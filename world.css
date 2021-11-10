@@ -1,0 +1,60 @@
+/* Add your own styles */
+
+
+header{
+
+    font-size: 18px;
+
+}
+
+.overview-hero {
+    display: flex;
+    justify-content: center;
+ }
+
+.container {
+
+    background-color: #6891c7;
+
+}
+.control-container{
+    display: flex;
+    justify-content: center;
+}
+
+input[type=search]{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+button[type=bttn-ctrl]{
+    background-color:#5A67D8 ;
+    padding-top: 5px;
+    padding-right: 40px;
+    padding-bottom: 5px;
+    padding-left: 40px;
+
+    border-radius: 5px;
+    color: white;
+
+}
+
+button[type=lookup]{
+    background-color:#5A67D8 ;
+    padding-top: 5px;
+    padding-right: 40px;
+    padding-bottom: 5px;
+    padding-left: 40px;
+
+    border-radius: 5px;
+    color: white;
+
+}
+
+
+table {
+    margin: 0 auto;
+    align: "center";
+}
