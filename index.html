@@ -5,38 +5,26 @@
 		<title>World Database Lookup</title>
 
 		<!-- you can modify this as needed or to your preference -->
-		<link  href="world.css" rel="stylesheet" type="text/css"/>
+		<link href="world.css" type="text/css" rel="stylesheet" />
 
 		<!-- you write this -->
 		<script src="world.js" type="text/javascript"></script>
-		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
 	</head>
 
 	<body>
-		<div class="container">
-			<div class="overview-hero">
-				<header>
-					<h1>World Database Lookup</h1>
-				</header>
-
-			</div>
-		</div>
+		<header>
+			<h1>World Database Lookup</h1>
+		</header>
 
 		<main>
-			<div class="control-container">
-
-				<div id="controls">
-					<label for="country">Country:</label>
-					<input id="country" type="search" name="country" placeholder="Enter country name" />
-					<button id="cities" type="bttn-ctrl">Lookup Cities</button>
-					<button id="lookup" type="lookup">Lookup</button>
-					
-				</div>
+			<div id="controls">
+				<label for="country">Country:</label>
+				<input id="country" type="search" name="country" placeholder="Enter country name" />
+				<button id="lookup">Lookup</button>
 			</div>
 			
 			<div id="result">
-
+				<!-- countries will appear here -->
 			</div>
 		</main>
 
